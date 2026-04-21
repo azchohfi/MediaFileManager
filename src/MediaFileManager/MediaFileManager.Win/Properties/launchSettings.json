@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MediaFileManager.Win": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿<ContentDialog x:Class="MediaFileManager.Desktop.Windows.AboutWindow"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:ucs="using:MediaFileManager.Desktop.UserControls"
+               Title="About Media File Manager"
+               PrimaryButtonText="Close"
+               DefaultButton="Primary">
+    <StackPanel Spacing="8">
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <TextBlock Text="Media File Manager v."
+                       FontSize="18"
+                       FontWeight="SemiBold" />
+            <TextBlock x:Name="VersionTextBlock"
+                       FontSize="18"
+                       FontWeight="SemiBold" />
+        </StackPanel>
+
+        <TextBlock x:Name="CopyrightTextBlock"
+                   HorizontalAlignment="Center"
+                   FontSize="14" />
+
+        <ucs:AnimatedLogo HorizontalAlignment="Center" />
+
+        <TextBlock Text="Media File Manager is a MSIX-packaged WinUI 3 application for easily renaming and organizing thousands of media files."
+                   TextWrapping="Wrap"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   Margin="10,0" />
+    </StackPanel>
+</ContentDialog>

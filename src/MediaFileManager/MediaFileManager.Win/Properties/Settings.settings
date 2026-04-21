@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MediaFileManager.Desktop.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SelectedViewIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AppCenterAnalyticsKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">d675d968-d698-4a38-832a-8b9db5d3764d</Value>
+    </Setting>
+    <Setting Name="PreferredTheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fluent</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
